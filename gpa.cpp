@@ -4,37 +4,221 @@ using namespace std;
 
 int main ()
 {
+  //temp string
+  string temp;
+
   //grade
-  string g1, g2, g3, g4, g5;
+  int g1, g2, g3, g4, g5;
+
   //weight
   int w1, w2, w3, w4, w5;
+
+  //gpa
+  double gpa;
 
   cout << "Welcome to PFI GPA calculator\n";
 
   //begin first logic sequence
   cout << "Enter the grade (A,B,C,D,F) for your class number 1\n";
 
-  cin >> g1;
+  cin >> temp;
 
-  if(g1 == "A" || g1 == "B" || g1 == "C" || g1 == "D" || g1 == "F")
+  if(temp == "A")
+    g1 = 5;
+  elseif(temp == "B")
+    g1 = 4;
+  elseif(temp == "C")
+    g1 = 3;
+  elseif(temp == "D")
+    g1 = 2;
+  elseif(temp == "F")
+    g1 = 1;
+  else
   {
-    cout << "";
+    cout << "You did not enter A or B or C or D or F.\n";
+    cout << "Your input was overridden as 'F'";
+
+    g1 = 1;
+  }
+
+  cout << "Enter hours (1..5) for your class number 1\n";
+
+  cin >> temp;
+
+  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  {
+    w1 = temp;
   }
   else
   {
-    cout << "You did not enter A or B or C or D or F, please try again\n";
+    cout << "You did not enter hours within 1 and 5.";
+    cout << "Your input was overridden as 1";
+
+    w1 = 1;
   }
-  cout << ""
 
-  // Calculate mean of 4 values
-  double mean = (n1 + n2 + n3 + n4) / 4;
+  //begin second logic sequence
+  cout << "Enter the grade (A,B,C,D,F) for your class number 2\n";
 
-  // Calculate variance of 4 values
-  double variance = (pow((n1 - mean),2) * pow((n2 - mean),2) * pow((n3 - mean),2) * pow((n4 - mean),2)) / 4;
+  cin >> temp;
 
-  // Print the output
-  cout << "mean = " << mean << endl;
-  cout << "variance = " << variance << endl;
+  if(temp == "A")
+    g2 = 5;
+  elseif(temp == "B")
+    g2 = 4;
+  elseif(temp == "C")
+    g2 = 3;
+  elseif(temp == "D")
+    g2 = 2;
+  elseif(temp == "F")
+    g2 = 1;
+  else
+  {
+    cout << "You did not enter A or B or C or D or F.\n";
+    cout << "Your input was overridden as 'F'";
+
+    g2 = 1;
+  }
+
+  cout << "Enter hours (1..5) for your class number 2\n";
+
+  cin >> temp;
+
+  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  {
+    w2 = temp;
+  }
+  else
+  {
+    cout << "You did not enter hours within 1 and 5.";
+    cout << "Your input was overridden as 1";
+
+    w2 = 1;
+  }
+
+  //begin third logic sequence
+  cout << "Enter the grade (A,B,C,D,F) for your class number 3\n";
+
+  cin >> temp;
+
+  if(temp == "A")
+    g3 = 5;
+  elseif(temp == "B")
+    g3 = 4;
+  elseif(temp == "C")
+    g3 = 3;
+  elseif(temp == "D")
+    g3 = 2;
+  elseif(temp == "F")
+    g3 = 1;
+  else
+  {
+    cout << "You did not enter A or B or C or D or F.\n";
+    cout << "Your input was overridden as 'F'";
+
+    g3 = 1;
+  }
+
+  cout << "Enter hours (1..5) for your class number 3\n";
+
+  cin >> temp;
+
+  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  {
+    w3 = temp;
+  }
+  else
+  {
+    cout << "You did not enter hours within 1 and 5.";
+    cout << "Your input was overridden as 1";
+
+    w3 = 1;
+  }
+
+  //being fourth logic sequence
+  cout << "Enter the grade (A,B,C,D,F) for your class number 4\n";
+
+  cin >> g1;
+
+  cin >> temp;
+
+  if(temp == "A")
+    g4 = 5;
+  elseif(temp == "B")
+    g4 = 4;
+  elseif(temp == "C")
+    g4 = 3;
+  elseif(temp == "D")
+    g4 = 2;
+  elseif(temp == "F")
+    g4 = 1;
+  else
+  {
+    cout << "You did not enter A or B or C or D or F.\n";
+    cout << "Your input was overridden as 'F'";
+
+    g4 = 1;
+  }
+
+  cout << "Enter hours (1..5) for your class number 4\n";
+
+  cin >> temp;
+
+  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  {
+    w4 = temp;
+  }
+  else
+  {
+    cout << "You did not enter hours within 1 and 5.";
+    cout << "Your input was overridden as 1";
+
+    w4 = 1;
+  }
+
+  //being firth logic sequence
+  cout << "Enter the grade (A,B,C,D,F) for your class number 5\n";
+
+  cin >> temp;
+
+  if(temp == "A")
+    g5 = 5;
+  elseif(temp == "B")
+    g5 = 4;
+  elseif(temp == "C")
+    g5 = 3;
+  elseif(temp == "D")
+    g5 = 2;
+  elseif(temp == "F")
+    g5 = 1;
+  else
+  {
+    cout << "You did not enter A or B or C or D or F.\n";
+    cout << "Your input was overridden as 'F'";
+
+    g5 = 1;
+  }
+
+  cout << "Enter hours (1..5) for your class number 5\n";
+
+  cin >> temp;
+
+  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  {
+    w5 = temp;
+  }
+  else
+  {
+    cout << "You did not enter hours within 1 and 5.";
+    cout << "Your input was overridden as 1";
+
+    w5 = 1;
+  }
+
+  gpa = (g1/w1) + (g2/w2) + (g3/w3) + (g4/w4) + (g5/w5);
+
+  //calculate GPA
+  cout << "Congratulations, your GPA was " << gpa;
+
   return 0;
 }
-
