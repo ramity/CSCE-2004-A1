@@ -45,7 +45,7 @@ int main ()
 
   cin >> temp;
 
-  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
   {
     w1 = temp;
   }
@@ -84,7 +84,7 @@ int main ()
 
   cin >> temp;
 
-  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
   {
     w2 = temp;
   }
@@ -123,7 +123,7 @@ int main ()
 
   cin >> temp;
 
-  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
   {
     w3 = temp;
   }
@@ -164,7 +164,7 @@ int main ()
 
   cin >> temp;
 
-  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
   {
     w4 = temp;
   }
@@ -203,7 +203,7 @@ int main ()
 
   cin >> temp;
 
-  if(temp == 1 || temp == 2 || temp == 3 || temp == 4 || temp == 5)
+  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
   {
     w5 = temp;
   }
