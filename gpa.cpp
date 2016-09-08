@@ -45,9 +45,9 @@ int main ()
 
   cin >> temp;
 
-  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
+  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
   {
-    w1 = temp;
+    w1= (int) temp;
   }
   else
   {
@@ -84,9 +84,9 @@ int main ()
 
   cin >> temp;
 
-  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
+  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
   {
-    w2 = temp;
+    w2= (int) temp;
   }
   else
   {
@@ -123,9 +123,9 @@ int main ()
 
   cin >> temp;
 
-  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
+  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
   {
-    w3 = temp;
+    w3= (int) temp;
   }
   else
   {
@@ -164,9 +164,9 @@ int main ()
 
   cin >> temp;
 
-  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
+  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
   {
-    w4 = temp;
+    w4= (int) temp;
   }
   else
   {
@@ -203,9 +203,9 @@ int main ()
 
   cin >> temp;
 
-  if((temp == 1) || (temp == 2) || (temp == 3) || (temp == 4) || (temp == 5))
+  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
   {
-    w5 = temp;
+    w5= (int) temp;
   }
   else
   {
