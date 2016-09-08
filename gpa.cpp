@@ -5,7 +5,7 @@ using namespace std;
 int main ()
 {
   //temp string
-  string temp;
+  char temp;
 
   //grade
   int g1, g2, g3, g4, g5;
