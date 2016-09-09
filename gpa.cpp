@@ -27,21 +27,21 @@ int main ()
   cin >> temp_string;
 
   if(temp_string == "A")
-    g1 = 5;
-  else if(temp_string == "B")
     g1 = 4;
-  else if(temp_string == "C")
+  else if(temp_string == "B")
     g1 = 3;
-  else if(temp_string == "D")
+  else if(temp_string == "C")
     g1 = 2;
-  else if(temp_string == "F")
+  else if(temp_string == "D")
     g1 = 1;
+  else if(temp_string == "F")
+    g1 = 0;
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
     cout << "Your input was overridden as 'F'";
 
-    g1 = 1;
+    g1 = 0;
   }
 
   cout << "Enter hours (1..5) for your class number 1\n";
@@ -66,21 +66,21 @@ int main ()
   cin >> temp_string;
 
   if(temp_string == "A")
-    g2 = 5;
-  else if(temp_string == "B")
     g2 = 4;
-  else if(temp_string == "C")
+  else if(temp_string == "B")
     g2 = 3;
-  else if(temp_string == "D")
+  else if(temp_string == "C")
     g2 = 2;
-  else if(temp_string == "F")
+  else if(temp_string == "D")
     g2 = 1;
+  else if(temp_string == "F")
+    g2 = 0;
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
     cout << "Your input was overridden as 'F'";
 
-    g2 = 1;
+    g2 = 0;
   }
 
   cout << "Enter hours (1..5) for your class number 2\n";
@@ -105,21 +105,21 @@ int main ()
   cin >> temp_string;
 
   if(temp_string == "A")
-    g3 = 5;
-  else if(temp_string == "B")
     g3 = 4;
-  else if(temp_string == "C")
+  else if(temp_string == "B")
     g3 = 3;
-  else if(temp_string == "D")
+  else if(temp_string == "C")
     g3 = 2;
-  else if(temp_string == "F")
+  else if(temp_string == "D")
     g3 = 1;
+  else if(temp_string == "F")
+    g3 = 0;
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
     cout << "Your input was overridden as 'F'\n";
 
-    g3 = 1;
+    g3 = 0;
   }
 
   cout << "Enter hours (1..5) for your class number 3\n";
@@ -144,21 +144,21 @@ int main ()
   cin >> temp_string;
 
   if(temp_string == "A")
-    g4 = 5;
-  else if(temp_string == "B")
     g4 = 4;
-  else if(temp_string == "C")
+  else if(temp_string == "B")
     g4 = 3;
-  else if(temp_string == "D")
+  else if(temp_string == "C")
     g4 = 2;
-  else if(temp_string == "F")
+  else if(temp_string == "D")
     g4 = 1;
+  else if(temp_string == "F")
+    g4 = 0;
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
     cout << "Your input was overridden as 'F'";
 
-    g4 = 1;
+    g4 = 0;
   }
 
   cout << "Enter hours (1..5) for your class number 4\n";
@@ -183,21 +183,21 @@ int main ()
   cin >> temp_string;
 
   if(temp_string == "A")
-    g5 = 5;
-  else if(temp_string == "B")
     g5 = 4;
-  else if(temp_string == "C")
+  else if(temp_string == "B")
     g5 = 3;
-  else if(temp_string == "D")
+  else if(temp_string == "C")
     g5 = 2;
-  else if(temp_string == "F")
+  else if(temp_string == "D")
     g5 = 1;
+  else if(temp_string == "F")
+    g5 = 0;
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
     cout << "Your input was overridden as 'F'";
 
-    g5 = 1;
+    g5 = 0;
   }
 
   cout << "Enter hours (1..5) for your class number 5\n";
