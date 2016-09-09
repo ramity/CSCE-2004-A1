@@ -46,11 +46,11 @@ int main ()
 
   cout << "Enter hours (1..5) for your class number 1\n";
 
-  cin >> temp;
+  cin >> temp_int;
 
-  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
+  if((temp_int == 1) || (temp_int == 2) || (temp_int == 3) || (temp_int == 4) || (temp_int == 5))
   {
-    w1= (int) temp;
+    w1 = temp_int;
   }
   else
   {
@@ -85,11 +85,11 @@ int main ()
 
   cout << "Enter hours (1..5) for your class number 2\n";
 
-  cin >> temp;
+  cin >> temp_int;
 
-  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
+  if((temp_int == 1) || (temp_int == 2) || (temp_int == 3) || (temp_int == 4) || (temp_int == 5))
   {
-    w2= (int) temp;
+    w2 = temp_int;
   }
   else
   {
@@ -124,11 +124,11 @@ int main ()
 
   cout << "Enter hours (1..5) for your class number 3\n";
 
-  cin >> temp;
+  cin >> temp_int;
 
-  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
+  if((temp_int == 1) || (temp_int == 2) || (temp_int == 3) || (temp_int == 4) || (temp_int == 5))
   {
-    w3= (int) temp;
+    w3 = temp_int;
   }
   else
   {
@@ -165,11 +165,11 @@ int main ()
 
   cout << "Enter hours (1..5) for your class number 4\n";
 
-  cin >> temp;
+  cin >> temp_int;
 
-  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
+  if((temp_int == 1) || (temp_int == 2) || (temp_int == 3) || (temp_int == 4) || (temp_int == 5))
   {
-    w4= (int) temp;
+    w4 = temp_int;
   }
   else
   {
@@ -204,11 +204,11 @@ int main ()
 
   cout << "Enter hours (1..5) for your class number 5\n";
 
-  cin >> temp;
+  cin >> temp_int;
 
-  if((temp == "1") || (temp == "2") || (temp == "3") || (temp == "4") || (temp == "5"))
+  if((temp_int == 1) || (temp_int == 2) || (temp_int == 3) || (temp_int == 4) || (temp_int == 5))
   {
-    w5= (int) temp;
+    w5 = temp_int;
   }
   else
   {
