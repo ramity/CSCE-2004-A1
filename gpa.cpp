@@ -216,7 +216,7 @@ int main ()
     w5 = 1;
   }
 
-  gpa = (w1 + w2 + w3 + w4 + w5) / ((w1 * g1) + (w2 * g2) + (w3 * g3) + (w4 * g4) + (w5 * g5));
+  gpa = ((w1 * g1) + (w2 * g2) + (w3 * g3) + (w4 * g4) + (w5 * g5)) / (w1 + w2 + w3 + w4 + w5);
 
   //calculate GPA
   cout << "Congratulations, your GPA was " << gpa << "\n";
