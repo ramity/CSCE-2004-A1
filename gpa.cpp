@@ -141,8 +141,6 @@ int main ()
   //being fourth logic sequence
   cout << "Enter the grade (A,B,C,D,F) for your class number 4\n";
 
-  cin >> g1;
-
   cin >> temp_string;
 
   if(temp_string == "A")
@@ -221,7 +219,7 @@ int main ()
   gpa = (g1/w1) + (g2/w2) + (g3/w3) + (g4/w4) + (g5/w5);
 
   //calculate GPA
-  cout << "Congratulations, your GPA was " << gpa;
+  cout << "Congratulations, your GPA was " << gpa << "\n";
 
   return 0;
 }
