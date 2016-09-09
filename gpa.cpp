@@ -39,7 +39,7 @@ int main ()
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
-    cout << "Your input was overridden as 'F'";
+    cout << "Your input was overridden as 'F'\n";
 
     g1 = 0;
   }
@@ -54,8 +54,8 @@ int main ()
   }
   else
   {
-    cout << "You did not enter hours within 1 and 5.";
-    cout << "Your input was overridden as 1";
+    cout << "You did not enter hours within 1 and 5.\n";
+    cout << "Your input was overridden as 1\n";
 
     w1 = 1;
   }
@@ -78,7 +78,7 @@ int main ()
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
-    cout << "Your input was overridden as 'F'";
+    cout << "Your input was overridden as 'F'\n";
 
     g2 = 0;
   }
@@ -93,8 +93,8 @@ int main ()
   }
   else
   {
-    cout << "You did not enter hours within 1 and 5.";
-    cout << "Your input was overridden as 1";
+    cout << "You did not enter hours within 1 and 5.\n";
+    cout << "Your input was overridden as 1\n";
 
     w2 = 1;
   }
@@ -132,8 +132,8 @@ int main ()
   }
   else
   {
-    cout << "You did not enter hours within 1 and 5.";
-    cout << "Your input was overridden as 1";
+    cout << "You did not enter hours within 1 and 5.\n";
+    cout << "Your input was overridden as 1\n";
 
     w3 = 1;
   }
@@ -156,7 +156,7 @@ int main ()
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
-    cout << "Your input was overridden as 'F'";
+    cout << "Your input was overridden as 'F'\n";
 
     g4 = 0;
   }
@@ -171,8 +171,8 @@ int main ()
   }
   else
   {
-    cout << "You did not enter hours within 1 and 5.";
-    cout << "Your input was overridden as 1";
+    cout << "You did not enter hours within 1 and 5.\n";
+    cout << "Your input was overridden as 1\n";
 
     w4 = 1;
   }
@@ -195,7 +195,7 @@ int main ()
   else
   {
     cout << "You did not enter A or B or C or D or F.\n";
-    cout << "Your input was overridden as 'F'";
+    cout << "Your input was overridden as 'F'\n";
 
     g5 = 0;
   }
@@ -210,8 +210,8 @@ int main ()
   }
   else
   {
-    cout << "You did not enter hours within 1 and 5.";
-    cout << "Your input was overridden as 1";
+    cout << "You did not enter hours within 1 and 5.\n";
+    cout << "Your input was overridden as 1\n";
 
     w5 = 1;
   }
