@@ -11,10 +11,10 @@ int main ()
   int temp_int;
 
   //grade
-  int g1, g2, g3, g4, g5;
+  double g1, g2, g3, g4, g5;
 
   //weight
-  int w1, w2, w3, w4, w5;
+  double w1, w2, w3, w4, w5;
 
   //gpa
   double gpa;
